@@ -41,7 +41,7 @@ export default function Header() {
             <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
   {/*<img src={Logo} className=" w-[48px] h-[48px] " alt="Flowbite Logo" />*/}
             <Image src="/favicon-32x32.png" alt="logo" width={30} height={30}></Image>
-              <span className="self-center f-f-sm text-tiny  whitespace-nowrap text-white ">Gia Finance</span>
+              <span className=" hidden md:block self-center f-f-sm text-tiny  whitespace-nowrap text-white ">Gia Finance</span>
             </Link>
             
             <div className="ml-auto mr-2 inline-flex items-center  justify-center text-sm  md:hidden " >
