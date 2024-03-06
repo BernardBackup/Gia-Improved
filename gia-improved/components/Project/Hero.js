@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 import Image from 'next/image';
+import Link from 'next/link';
 import partner1 from '../../assets/images/cronos-a2.png'
 import partner2 from '../../assets/images/cronos-c2.png'
 import partner3 from '../../assets/images/cronos2.gif'
