@@ -58,14 +58,14 @@ body {
   font-family:Poppins-SemiBold;
 }
 .f-f-r-b{
-  font-family:Bouncy;
+  font-family:Poppins-Bold;
 }
 
 .pup-crd{
   box-shadow: 0px 39px 69.80000305175781px 0px #CB825017;
 }
 .pupysaletext{
-  background: linear-gradient(90.79deg, #F59331 -2.96%, #E91C24 100.62%);
+  background: linear-gradient(90.79deg, #07612c -2.96%, #E91C24 100.62%);
 color: transparent;
 background-clip: text;
 }

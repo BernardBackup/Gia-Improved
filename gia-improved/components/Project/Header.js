@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import Drawermob from './Drawermob'
+import Drawermob from '../Drawermob'
 import { ConnectWallet } from "@thirdweb-dev/react";
+import { DocSearch } from "@docsearch/react";
+import { Input } from "@material-tailwind/react";
 import Link from 'next/link';
 
 export default function Header() {
   const [open, setOpen] = React.useState(false);
 
   const openDrawer = () => setOpen(true);
+  const APP_ID = "your-app-id";
+const INDEX_NAME = "your-index-name";
+const API_KEY = "your-algolia-api-key";
 
   const [showSecondNavbar, setShowSecondNavbar] = useState(false);
 
@@ -43,7 +48,28 @@ export default function Header() {
             <Image src="/favicon-32x32.png" width={30} height={30}></Image>
               <span className="self-center f-f-sm text-tiny  whitespace-nowrap text-white ">Gia Finance</span>
             </Link>
-            
+            <div className="group relative hidden md:block">
+      <Input
+        type="email"
+        placeholder="Search"
+        className="focus:!border-t-gray-900 group-hover:border-2 group-hover:!border-gray-900"
+        labelProps={{
+          className: "hidden",
+        }}
+        readOnly
+      />
+      <div className="absolute top-[calc(50%-1px)] right-2.5 -translate-y-2/4">
+        <kbd className="rounded border border-blue-gray-100 bg-white px-1 pt-px pb-0 text-xs font-medium text-gray-900 shadow shadow-black/5">
+          <span className="mr-0.5 inline-block translate-y-[1.5px] text-base">
+            ⌘
+          </span>
+          K
+        </kbd>
+      </div>
+      <div className="absolute inset-0 w-full opacity-0">
+        <DocSearch indexName={INDEX_NAME} apiKey={API_KEY} appId={APP_ID} />
+      </div>
+    </div>
             <div className="ml-auto mr-2 inline-flex items-center  justify-center text-sm  md:hidden " >
             <ConnectWallet className='timebr'/>
             </div>
