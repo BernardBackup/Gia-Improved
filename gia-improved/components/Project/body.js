@@ -31,7 +31,7 @@ const CollectionPage = () => {
           <div className='col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 mt-4 sm:mt-0'>
             <div className='relative text-center pillerhvr'>
               <div className='image-container'>
-                <Image src={image.src} className='rounded-[32px] object-cover w-full h-auto mx-auto md:w-[435px] md:h-[435px]' />
+                <Image src={image.src} alt={image.name} className='rounded-[32px] object-cover w-full h-auto mx-auto md:w-[435px] md:h-[435px]' />
                 <div className='image-overlay'></div>
                 <div className='image-text'>
                   <p className='f-f-m text-tiny text-white pb-4' >

@@ -45,7 +45,7 @@ const API_KEY = "your-algolia-api-key";
           <div className="   flex flex-wrap items-center justify-between mx-auto py-3">
             <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
   {/*<img src={Logo} className=" w-[48px] h-[48px] " alt="Flowbite Logo" />*/}
-            <Image src="/favicon-32x32.png" width={30} height={30}></Image>
+            <Image src="/favicon-32x32.png" alt="logo" width={30} height={30}/>
               <span className="self-center f-f-sm text-tiny  whitespace-nowrap text-white ">Gia Finance</span>
             </Link>
             <div className="group relative hidden md:block">

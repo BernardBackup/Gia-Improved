@@ -95,38 +95,38 @@ export default function Hero() {
       <Slider {...settings} className=' my-12 ' >
     <a href="">
         <div>
-          <Image src={partner1} className=' w-[90%]  h-[162px] mx-auto  object-cover rounded-[24px] ' />
+          <Image src={partner1} alt="image" className=' w-[90%]  h-[162px] mx-auto  object-cover rounded-[24px] ' />
         </div>
     </a>
         <div>
-          <Image src={partner2} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
+          <Image src={partner2} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
         <div>
           <Image src={partner3} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
-      <a href="https://www.dexview.com/eth/0x798b581Afdba0fc5EC48E41B162FEfa6b69a8Fa2">
+      <a href="">
         <div>
-          <Image src={partner4} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
+          <Image src={partner4} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
       </a>
         <div>
-          <Image src={partner5} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
+          <Image src={partner5} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
         </div>
         <div>
           <Image src={partner6} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
         </div>
-    <a href="https://github.com/solidproof/projects/blob/main/2024/PuppyLove%20coin/SmartContract_Audit_Solidproof_Puppylovecoin.pdf">
+    <a href="/">
         <div>
-          <Image src={partner7} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
+          <Image src={partner7} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
     </a>
         <div>
           <Image src={partner1} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
     
-    <a href="https://www.pinksale.finance/launchpad/0xb57072dBF8410F256f29526112d020aB306c5d73?chain=ETH">
+    <a href="" >
         <div>
-          <Image src={partner2} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
+          <Image src={partner2} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
     </a>
   {/* <div>
