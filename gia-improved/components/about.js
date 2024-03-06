@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import LogArtboard from '@/assets/images/LogArtboard 56.svg'
 
 
@@ -14,11 +15,11 @@ export default function Tokenomics() {
             <p className=' text-grey-light f-f-m text-tiny md:text-lg mt-6 ' >
             We are excited to have you here, and we can not wait to see you explore our project.
             </p>
-<a href="">
+<Link href="">
            <button className=' my-8 w-[162px] h-[52px] rounded-[58px] bg-[#1FD655] text-grey-light f-f-sm text-tiny ' >
            Explore
            </button>
-    </a>
+    </Link>
             </div>
     </div>
   )

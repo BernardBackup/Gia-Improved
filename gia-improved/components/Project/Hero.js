@@ -93,42 +93,42 @@ export default function Hero() {
       </h2>
 
       <Slider {...settings} className=' my-12 ' >
-    <a href="">
+    <Link href="">
         <div>
           <Image src={partner1} alt="image" className=' w-[90%]  h-[162px] mx-auto  object-cover rounded-[24px] ' />
         </div>
-    </a>
+    </Link>
         <div>
           <Image src={partner2} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
         <div>
           <Image src={partner3} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
-      <a href="">
+      <Link href="">
         <div>
           <Image src={partner4} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
-      </a>
+      </Link>
         <div>
           <Image src={partner5} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
         </div>
         <div>
           <Image src={partner6} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
         </div>
-    <a href="/">
+    <Link href="/">
         <div>
           <Image src={partner7} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
-    </a>
+    </Link>
         <div>
           <Image src={partner1} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
     
-    <a href="" >
+    <Link href="" >
         <div>
           <Image src={partner2} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
-    </a>
+    </Link>
   {/* <div>
           <img src={partner2} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] ' />
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import partner1 from '../../assets/images/cronos-a2.png';
 import partner2 from '../../assets/images/cronos-c2.png';
 import partner3 from '../../assets/images/cronos2.gif';
@@ -40,11 +41,11 @@ const CollectionPage = () => {
                 </div>
               </div>
               <div className='absolute top-[26px] w-full'>
-                <a href=''>
+                <Link href=''>
                   <button className='strng-btn rounded-[58px] w-[223px] h-[52px] md:w-[257px] md:h-[58px] text-white text-base f-f-b'>
                     {image.name} <span className='f-f-m text-tiny text-primary'>(Stake Me)</span>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
