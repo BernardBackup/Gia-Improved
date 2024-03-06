@@ -103,7 +103,7 @@ export default function Hero() {
           <Image src={partner2} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
         <div>
-          <Image src={partner3} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
+          <Image src={partner3} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
       <Link href="">
         <div>
@@ -114,7 +114,7 @@ export default function Hero() {
           <Image src={partner5} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
         </div>
         <div>
-          <Image src={partner6} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
+          <Image src={partner6} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer  ' />
         </div>
     <Link href="/">
         <div>
@@ -122,7 +122,7 @@ export default function Hero() {
         </div>
     </Link>
         <div>
-          <Image src={partner1} className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
+          <Image src={partner1} alt="image" className=' w-[90%] h-[162px] mx-auto  object-cover rounded-[24px] cursor-pointer ' />
         </div>
     
     <Link href="" >
